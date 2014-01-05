@@ -8,16 +8,14 @@ a {
 }
 
 body {
-	overflow: scroll;
 	background-color: #FEFEFA;
+	white-space: nowrap;
 }
 
 #header {
 	display: block;
-	margin: 0px;
 	padding: 30px 5px 5px 50px;
 	height: 100px;
-	white-space: nowrap;
 	top: 0;
 }
 
@@ -33,6 +31,7 @@ body {
 	font-weight: 100;
 	font-size: 2em;
 	margin: 0px;
+	padding-right: 50px;
 }
 
 .divider {
