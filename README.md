@@ -5,4 +5,6 @@ This website was created using vanilla HTML and CSS. It is hosted with [Github P
 
 The site makes use of the Roboto family of fonts, available under the [Apache v2 License](http://www.apache.org/licenses/LICENSE-2.0) on [Google Fonts](http://www.google.com/fonts/specimen/Roboto).
 
+Thanks to [Paul Bennett](http://paulicio.us) for the script that adds mouse wheel support.
+
 The website is © Justin Gallagher 2014.
