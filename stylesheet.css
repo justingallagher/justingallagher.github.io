@@ -5,23 +5,23 @@
 a {
 	text-decoration: none;
 	color: black;
+	font-weight: 500;
 }
 
-html {
-	height: 100%;
+a:hover {
+	text-decoration: underline;
 }
 
 body {
 	background-color: #FEFEFA;
 	white-space: nowrap;
-	height: 100%;
 	margin: 0;
 	padding: 0;
 }
 
 #header {
 	height: 100px;
-	padding: 50px 5px 50px 50px;
+	padding: 50px 5px 80px 50px;
 	margin: 0px;
 	top: 0;
 }
@@ -41,7 +41,7 @@ body {
 	padding-right: 50px;
 }
 
-.divider {
+#divider {
 	height: 2px;
 	width: 68.6em;
 	margin-top: 10px;
@@ -53,8 +53,8 @@ body {
 	white-space: normal;
 	padding: 0px 5px 0px 50px;
 	margin: 0px;
-	height: 500px;
-	width: 3305px;
+	height: 420px;
+	width: 2970px;
 }
 
 .category {
@@ -74,18 +74,10 @@ body {
 .entry {
 	display: inline-block;
 	font-weight: 300;
-	height: 400px;
+	height: 360px;
 	width: 300px;
 	padding: 10px 30px 0 0;
 	margin: 0;
 	overflow: hidden;
 	text-align: justify;
-}
-
-.links {
-	display: inline-block;
-	margin: 5px 0px 0px 0px;
-	width: 100px;
-	font-weight: 300;
-	font-size: 1em;
 }
