@@ -12,16 +12,25 @@ a:hover {
 	text-decoration: underline;
 }
 
+html {
+	display: inline-block;
+	height: 99.5%;
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background-color: #FEFEFA;
 	white-space: nowrap;
 	margin: 0;
 	padding: 0;
+	height: 100%;
+	width: 2986px;
 }
 
 #header {
 	height: 100px;
-	padding: 50px 5px 80px 50px;
+	padding: 50px 5px 80px 70px;
 	margin: 0px;
 	top: 0;
 }
@@ -50,16 +59,14 @@ body {
 
 #content {
 	display: inline-block;
-	white-space: normal;
-	padding: 0px 5px 0px 50px;
-	margin: 0px;
+	padding: 0px 0 0px 70px;
 	height: 420px;
-	width: 2970px;
 }
 
 .category {
 	height: 100%;
 	display: inline-block;
+	white-space: normal;
 	padding: 0 50px 0 0;
 	margin: 0;
 }
