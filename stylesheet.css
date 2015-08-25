@@ -9,21 +9,42 @@ body {
 }
 
 .border {
-	border: solid 1px black;
+	border: solid 1px #4D4D4D;
 }
 
 #namecard {
-	height: 14em;
+	height: 16em;
 	width: 42em;
 	position: absolute;
 	display: inline-block;
 	top: 50%;
-	margin-top: -7em;
+	margin-top: -8em;
 	margin-left: -21em;
 }
 
 #top {
-	height: 8em;
+	height: 10em;
 	width: 100%;
-	background-color: black;
+	background-color: #4D4D4D;
+	color: white;
+}
+
+#spacer {
+	height: 2em;
+}
+
+h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 4em;
+}
+
+h2 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 1.4em;
+}
+
+emph {
+	font-weight: normal;
 }
