@@ -1,3 +1,29 @@
 * {
 	font-family: 'Roboto', sans-serif;
 }
+
+body {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.border {
+	border: solid 1px black;
+}
+
+#namecard {
+	height: 14em;
+	width: 42em;
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	margin-top: -7em;
+	margin-left: -21em;
+}
+
+#top {
+	height: 8em;
+	width: 100%;
+	background-color: black;
+}
