@@ -13,12 +13,12 @@ body {
 }
 
 #namecard {
-	height: 16em;
+	height: 15em;
 	width: 42em;
 	position: absolute;
 	display: inline-block;
 	top: 50%;
-	margin-top: -8em;
+	margin-top: -7.5em;
 	margin-left: -21em;
 }
 
@@ -27,6 +27,11 @@ body {
 	width: 100%;
 	background-color: #4D4D4D;
 	color: white;
+}
+
+#bottom {
+	color: #4D4D4D;
+	padding-top: 1.4em;
 }
 
 #spacer {
@@ -43,6 +48,14 @@ h2 {
 	margin: 0;
 	font-weight: 300;
 	font-size: 1.4em;
+}
+
+a {
+	color: #4D4D4D;
+	text-decoration: none;
+	margin: 1.2em;
+	font-size: 1.6em;
+	padding: 0;
 }
 
 emph {
