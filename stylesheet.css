@@ -4,7 +4,6 @@
 
 body {
 	height: 100%;
-	width: 100%;
 	text-align: center;
 }
 
@@ -55,9 +54,28 @@ a {
 	text-decoration: none;
 	margin: 1.2em;
 	font-size: 1.6em;
+	font-weight: 500;
 	padding: 0;
+}
+
+.footer a {
+	margin: 0;
+	font-size: 1em;
+	font-weight: 300;
+	text-decoration: underline;
 }
 
 emph {
 	font-weight: normal;
+}
+
+.footer {
+	color: #4D4D4D;
+	position: absolute;
+	bottom: 1em;
+	font-weight: 300;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
 }
