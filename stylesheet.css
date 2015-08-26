@@ -5,6 +5,13 @@
 body {
 	height: 100%;
 	text-align: center;
+	background-image:url("background.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-attachment: fixed;
+	-moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .border {
@@ -16,9 +23,10 @@ body {
 	width: 42em;
 	position: absolute;
 	display: inline-block;
-	top: 50%;
+	top: 25%;
 	margin-top: -7.5em;
 	margin-left: -21em;
+	background-color: #FFFFFF;
 }
 
 #top {
@@ -31,6 +39,7 @@ body {
 #bottom {
 	color: #4D4D4D;
 	padding-top: 1.4em;
+	height: 5em;
 }
 
 #spacer {
@@ -70,7 +79,7 @@ emph {
 }
 
 .footer {
-	color: #4D4D4D;
+	color: #FFFFFF;
 	position: absolute;
 	bottom: 1em;
 	font-weight: 300;
